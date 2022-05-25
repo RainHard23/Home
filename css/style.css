@@ -1,3 +1,56 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -289,185 +342,5 @@ body {
   top: -400px;
   left: -130px;
   z-index: 1;
-}
-
-.details {
-  margin-top: 45px;
-  margin-left: 20px;
-}
-
-.details__container {
-  max-width: 1800px;
-  width: 100%;
-  height: 403px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 31, 31, 0.6))), url(/image/details/details.png);
-  background: linear-gradient(rgba(31, 31, 31, 0.6)), url(/image/details/details.png);
-  background-size: cover;
-}
-
-.details__container__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto;
-}
-
-.details__item {
-  max-width: 390px;
-}
-
-.details__item h3 {
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 1.1;
-  color: #FFFFFF;
-}
-
-.details__item p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #FFFFFF;
-  margin-bottom: 25px;
-}
-
-.details__project {
-  padding: 17px 58px;
-  border: 2px solid #C4C4C4;
-  text-decoration: none;
-  color: #C4C4C4;
-  font-size: 16px;
-  font-weight: 900;
-  line-height: 19px;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-}
-
-.details__project:hover {
-  background-color: #C4C4C4;
-  color: #FFFFFF;
-}
-
-.details__btn {
-  margin-top: 115px;
-}
-
-.details__btn a {
-  background: url(/image/details/details_dzin.svg) no-repeat;
-  background-position: 10%;
-  padding: 25px 27px 25px 58px;
-  background-color: #5E9EFF;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
-.details__item__apartments {
-  background-color: #2A2A2A;
-  width: 390px;
-  height: 280px;
-  margin-top: 123px;
-  text-align: center;
-  border-top: 5px solid #FF6363;
-}
-
-.details__item__apartments p {
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 29px;
-  color: #FFFFFF;
-  margin-top: 78px;
-  margin-bottom: 77px;
-}
-
-.details__item__apartments a {
-  padding: 23px 100px;
-  background-color: #FF9C25;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.details .item__apartments__right {
-  margin-left: 50px;
-  background-color: #2A2A2A;
-  width: 390px;
-  height: 210px;
-  margin-top: 193px;
-  text-align: center;
-  border-top: 5px solid #FF6363;
-}
-
-.details .item__apartments__right p {
-  margin-top: 73px;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 1.3;
-  color: #FFFFFF;
-}
-
-.rooms {
-  padding: 73px 0 100px 0;
-}
-
-.rooms__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 66px;
-}
-
-.rooms__title h3 {
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 111%;
-  color: #1D1D1D;
-}
-
-.rooms__title a {
-  padding: 22px 69px;
-  border: 2px solid #C4C4C4;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 1.9;
-  color: #C4C4C4;
-  text-decoration: none;
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-}
-
-.rooms__title a:hover {
-  background-color: #C4C4C4;
-  color: #FFFFFF;
-}
-
-.rooms__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.rooms__item__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.rooms .item__inner_right {
-  margin-left: 70px;
 }
 /*# sourceMappingURL=style.css.map */
