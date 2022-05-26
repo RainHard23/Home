@@ -1,0 +1,104 @@
+.news {
+    margin-top: 120px;
+
+    &__title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 111%;
+        color: #1D1D1D;
+
+        margin-bottom: 40px;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    &__left {
+        display: grid;
+        grid-template-rows: 50% 25% 25%;
+    }
+
+    &__large {
+        padding: 15px 20px 26px 29px;
+        background-color:  #F9FBFE;
+        border-left: 5px solid #FF6363;
+
+        max-width: 445px;
+        max-height: 114px;
+        margin-bottom: 35px;
+        margin-left: 37px;
+    }
+
+    &__img-large{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__img-large:nth-child(1) {
+        min-width: 570px;
+        min-height: 309px;
+        background: linear-gradient(rgba(49, 49, 49, 0.5)), url(/image/news/img5.png);
+        background-size: cover;
+    }
+
+    &__img-large:nth-child(3) {
+        min-width: 570px;
+        min-height: 309px;
+        background: linear-gradient(rgba(49, 49, 49, 0.5)), url(/image/news/img6.png);
+        background-size: cover;
+    }
+
+    &__large h5 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    &__large p {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 130%;
+        color: #1D1D1D;
+    }
+
+    &__short {
+        max-width: 270px;
+        margin-top: 30px;
+    }
+
+    &__short:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    &__short:nth-child(2) {
+        margin-right: 30px;
+    }
+
+    &__short h5 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #000000;
+
+        margin-top: 15px;
+    }
+
+    &__short p {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D1D1D;
+
+        margin-top: 8px;
+    }
+
+
+    &__right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
