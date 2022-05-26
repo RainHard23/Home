@@ -1,0 +1,118 @@
+.rooms {
+    padding: 73px 0 100px 0;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 66px;
+
+        & h3 {
+            font-weight: 900;
+            font-size: 25px;
+            line-height: 111%;
+            color: #1D1D1D;
+        }
+
+        & a {
+            padding: 22px 69px;
+            border: 2px solid #C4C4C4;
+
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 1.9;
+            color: #C4C4C4;
+            text-decoration: none;
+            transition: 0.2s linear;
+        }
+
+        & a:hover {
+            background-color: #C4C4C4;
+            color: #FFFFFF;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        padding: 20px;
+        
+        
+        &__inner {
+            display: flex;
+            margin-top: 65px;
+        }
+
+        & button {
+            border: none;
+            margin-top: 100px;
+            text-decoration: none;
+            padding: 22px 39px;
+            background-color: #FF9C25;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 900;
+        }
+    }
+
+    &__item:hover {
+        margin-top: 20px;
+        cursor: pointer;
+        outline: 2px solid #F3F3F3;
+    }
+
+    .item__inner_right {
+        margin-left: 40px;
+        max-width: 77px;
+    }
+
+    .item__inner_left {
+        max-width: 176px;
+    }
+
+    &__img {
+        height: 100%;
+        max-height: 255px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .item__text-right {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #1D1D1D;
+        display: block;
+    }
+
+    .item__text-right:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .item__text-left {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D1D1D;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .item__text-left:last-child {
+        margin-bottom: 42px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #5E9EFF;
+        
+    }
+
+    .item__text-left:nth-last-child(2) {
+        margin-bottom: 20px;
+    }
+}
