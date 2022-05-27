@@ -722,4 +722,55 @@ body {
   background-color: #C4C4C4;
   color: #FFFFFF;
 }
+
+.achievements {
+  margin-top: 143px;
+  margin-bottom: 120px;
+}
+
+.achievements__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 111%;
+  color: #1D1D1D;
+  margin-bottom: 40px;
+}
+
+.achievements__board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.achievements__board-items span {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 111%;
+}
+
+.achievements__board-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1D1D1D;
+}
+
+.achievements__board-items:nth-child(1) span {
+  color: #F7AC52;
+}
+
+.achievements__board-items:nth-child(2) span {
+  color: #5E9EFF;
+}
+
+.achievements__board-items:nth-child(3) span {
+  color: #FF6363;
+}
+
+.achievements__board-items:nth-child(4) span {
+  color: #5F45FF;
+}
 /*# sourceMappingURL=style.css.map */

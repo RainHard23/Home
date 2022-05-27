@@ -1,0 +1,48 @@
+.achievements {
+    margin-top: 143px;
+    margin-bottom: 120px;
+
+
+    &__title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 111%;
+        color: #1D1D1D;
+
+        margin-bottom: 40px;
+    }
+
+    &__board {
+        display: flex;
+        justify-content: space-between;
+
+        &-items span {
+            font-weight: 800;
+            font-size: 60px;
+            line-height: 111%;
+        }
+
+        &-items p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #1D1D1D;
+        }
+
+        &-items:nth-child(1)  span {
+            color: #F7AC52; 
+        }
+
+        &-items:nth-child(2)  span {
+            color: #5E9EFF; 
+        }
+
+        &-items:nth-child(3)  span {
+            color: #FF6363;
+        }
+
+        &-items:nth-child(4)  span {
+            color: #5F45FF;
+        }
+    }
+}
