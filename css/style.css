@@ -773,4 +773,119 @@ body {
 .achievements__board-items:nth-child(4) span {
   color: #5F45FF;
 }
+
+.mortgage {
+  background: url(/image/mortgage/couban.png) no-repeat;
+  background-position-x: 100%;
+  margin-bottom: 189px;
+}
+
+.mortgage__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mortgage__offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mortgage__offer h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 111%;
+  color: #1D1D1D;
+  margin-bottom: 25px;
+}
+
+.mortgage__offer span {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  color: #1D1D1D;
+  margin-bottom: 31px;
+}
+
+.mortgage__offer span:nth-child(3) {
+  margin-bottom: 46px;
+}
+
+.mortgage__offer a {
+  padding: 22px 69px;
+  border: 2px solid #C4C4C4;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #C4C4C4;
+  text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.mortgage__offer a:hover {
+  background-color: #C4C4C4;
+  color: #FFFFFF;
+}
+
+.mortgage__calc {
+  width: 100%;
+  height: 100%;
+  width: 469px;
+  height: 585px;
+  background-color: #2A2A2A;
+  border-top: 7px solid #FF6363;
+}
+
+.instagram__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 111%;
+  color: #1D1D1D;
+  margin-bottom: 83px;
+}
+
+.instagram__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.instagram__container-img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.instagram__container-img img:hover {
+  background-color: red;
+  opacity: 1;
+}
+
+.instagram__container-img a {
+  padding: 22px 68px;
+  border: 2px solid #C4C4C4;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #C4C4C4;
+  text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  opacity: 1;
+}
+
+.instagram__container-img a:hover {
+  background-color: #C4C4C4;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */

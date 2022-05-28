@@ -1,0 +1,71 @@
+.mortgage {
+    background: url(/image/mortgage/couban.png) no-repeat ;
+        background-position-x: 100%;
+
+        margin-bottom: 189px;
+        
+
+    &__container {
+        display: flex;
+        align-items: center;
+
+        
+        
+    }
+
+    &__offer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__offer h2 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 111%;
+        color: #1D1D1D;
+
+        margin-bottom: 25px;
+    }
+
+    &__offer span {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 130%;
+        color: #1D1D1D;
+
+        margin-bottom: 31px;
+    }
+
+    &__offer span:nth-child(3) {
+        margin-bottom: 46px;
+    }
+
+    &__offer a {
+        padding: 22px 69px;
+        border: 2px solid #C4C4C4;
+
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.9;
+        color: #C4C4C4;
+        text-decoration: none;
+        transition: 0.2s linear;
+    }
+
+    &__offer a:hover {
+        background-color: #C4C4C4;
+        color: #FFFFFF;
+    }
+
+    &__calc {
+        width: 100%;
+        height: 100%;
+        width: 469px;
+        height: 585px;
+        background-color: #2A2A2A;
+
+        border-top: 7px solid #FF6363;
+        ;
+    }
+}
