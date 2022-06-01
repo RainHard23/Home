@@ -1,25 +1,27 @@
 .news {
-    margin-top: 120px;
+    margin-top: 119px;
 
     &__title {
+        margin-left: 6px;
         font-weight: 800;
         font-size: 40px;
         line-height: 111%;
         color: #1D1D1D;
 
-        margin-bottom: 40px;
+        margin-bottom: 44px;
     }
 
     &__container {
+        margin-left: 11px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
-        margin-bottom: 52px;
+        margin-bottom: 48px;
     }
 
 
     &__large {
-        padding: 15px 20px 26px 29px;
+        padding: 18px 20px 26px 29px;
         background-color: #F9FBFE;
         border-left: 5px solid #FF6363;
 
@@ -53,6 +55,8 @@
     }
 
     &__large h5 {
+        margin-left: -6px;
+        margin-bottom: 0px;
         font-weight: 400;
         font-size: 14px;
         line-height: 130%;
@@ -60,6 +64,7 @@
     }
 
     &__large p {
+        margin-left: -4px;
         font-weight: 800;
         font-size: 20px;
         line-height: 130%;
@@ -69,6 +74,7 @@
     &__short {
         max-width: 270px;
     }
+
 
     &__short h5 {
         font-weight: 400;
@@ -98,7 +104,7 @@
     }
 
     &__button {
-        padding: 22px 78px;
+        padding: 19px 83px;
         border: 2px solid #C4C4C4;
 
         font-weight: 900;

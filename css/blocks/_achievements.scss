@@ -1,6 +1,6 @@
 .achievements {
-    margin-top: 143px;
-    margin-bottom: 120px;
+    margin-top: 135px;
+    margin-bottom: 102px;
 
 
     &__title {
@@ -9,12 +9,20 @@
         line-height: 111%;
         color: #1D1D1D;
 
-        margin-bottom: 40px;
+        margin-bottom: 62px;
+        margin-left: 6px;
     }
 
     &__board {
+        margin-left: 37px;
         display: flex;
         justify-content: space-between;
+
+        &-items {
+            background-color: #F9FBFE;
+            width: 232px;
+            height: 114px;
+        }
 
         &-items span {
             font-weight: 800;

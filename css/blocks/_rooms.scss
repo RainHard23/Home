@@ -1,20 +1,24 @@
 .rooms {
-    padding: 73px 0 100px 0;
+    padding: 73px 0 151px 0;
 
     &__title {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 66px;
+        margin-bottom: 36px;
 
         & h3 {
             font-weight: 900;
             font-size: 25px;
             line-height: 111%;
             color: #1D1D1D;
+            margin-left: 35px;
         }
 
+
         & a {
-            padding: 22px 69px;
+            margin-top: -8px;
+            margin-right: -49px;
+            padding: 14px 69px;
             border: 2px solid #C4C4C4;
 
             font-weight: 900;
@@ -32,6 +36,7 @@
     }
 
     &__container {
+        margin-left: 33px;
         display: flex;
         justify-content: space-between;
     }
@@ -47,7 +52,7 @@
 
         & button {
             border: none;
-            margin-top: 100px;
+            margin-top: -23px;
             text-decoration: none;
             padding: 22px 39px;
             background-color: #FF9C25;
@@ -67,7 +72,8 @@
     }
 
     .item__inner_right {
-        margin-left: 40px;
+        margin-top: 4px;
+        margin-left: 26px;
         max-width: 77px;
     }
 
@@ -77,9 +83,13 @@
 
     &__img {
         height: 100%;
-        max-height: 255px;
+        max-height: 240px;
         display: flex;
         align-items: flex-end;
+    }
+
+    &__img:not(:last-child) {
+        margin-right: -45px;
     }
 
     .item__text-right {
@@ -113,6 +123,6 @@
     }
 
     .item__text-left:nth-last-child(2) {
-        margin-bottom: 20px;
+        margin-bottom: 29px;
     }
 }

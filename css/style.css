@@ -212,7 +212,7 @@ body {
 
 .choice {
   padding: 67px 0 0 0;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .choice__container {
@@ -245,7 +245,6 @@ body {
   font-size: 60px;
   line-height: 1.3;
   color: #1D1D1D;
-  margin-bottom: 2px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -256,7 +255,7 @@ body {
   color: #000000;
   max-width: 378px;
   width: 100%;
-  margin-bottom: 21px;
+  margin-bottom: 18px;
   margin-left: 5px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -279,7 +278,7 @@ body {
 .choice__item-left button {
   margin-left: 18px;
   cursor: pointer;
-  padding: 22px 23px;
+  padding: 22px 30px;
   border: 2px solid #C4C4C4;
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -316,7 +315,7 @@ body {
 
 .choice__text__item {
   margin-left: 40px;
-  margin-top: 29px;
+  margin-top: 25px;
 }
 
 .choice__text h3 {
@@ -324,7 +323,7 @@ body {
   font-size: 20px;
   line-height: 1.3;
   color: #FFFFFF;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .choice__text p {
@@ -337,7 +336,7 @@ body {
 
 .choice__text img {
   position: absolute;
-  bottom: 20px;
+  bottom: 22px;
   right: 30px;
   cursor: pointer;
 }
@@ -401,7 +400,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #FFFFFF;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .details__project {
@@ -465,11 +464,11 @@ body {
   line-height: 29px;
   color: #FFFFFF;
   margin-top: 78px;
-  margin-bottom: 80px;
+  margin-bottom: 78px;
 }
 
 .details__item__apartments a {
-  margin-left: 25px;
+  margin-left: 28px;
   padding: 23px 78px 23px 76px;
   background-color: #FF9C25;
   font-weight: 900;
@@ -490,7 +489,7 @@ body {
 }
 
 .details .item__apartments__right span {
-  margin-left: 125px;
+  margin-left: 89px;
   max-width: 170px;
   display: block;
   margin-top: 73px;
@@ -501,7 +500,7 @@ body {
 }
 
 .rooms {
-  padding: 73px 0 100px 0;
+  padding: 73px 0 151px 0;
 }
 
 .rooms__title {
@@ -511,7 +510,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 66px;
+  margin-bottom: 36px;
 }
 
 .rooms__title h3 {
@@ -519,10 +518,13 @@ body {
   font-size: 25px;
   line-height: 111%;
   color: #1D1D1D;
+  margin-left: 35px;
 }
 
 .rooms__title a {
-  padding: 22px 69px;
+  margin-top: -8px;
+  margin-right: -49px;
+  padding: 14px 69px;
   border: 2px solid #C4C4C4;
   font-weight: 900;
   font-size: 16px;
@@ -539,6 +541,7 @@ body {
 }
 
 .rooms__container {
+  margin-left: 33px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,7 +563,7 @@ body {
 
 .rooms__item button {
   border: none;
-  margin-top: 100px;
+  margin-top: -23px;
   text-decoration: none;
   padding: 22px 39px;
   background-color: #FF9C25;
@@ -579,7 +582,8 @@ body {
 }
 
 .rooms .item__inner_right {
-  margin-left: 40px;
+  margin-top: 4px;
+  margin-left: 26px;
   max-width: 77px;
 }
 
@@ -589,13 +593,17 @@ body {
 
 .rooms__img {
   height: 100%;
-  max-height: 255px;
+  max-height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.rooms__img:not(:last-child) {
+  margin-right: -45px;
 }
 
 .rooms .item__text-right {
@@ -628,32 +636,34 @@ body {
 }
 
 .rooms .item__text-left:nth-last-child(2) {
-  margin-bottom: 20px;
+  margin-bottom: 29px;
 }
 
 .news {
-  margin-top: 120px;
+  margin-top: 119px;
 }
 
 .news__title {
+  margin-left: 6px;
   font-weight: 800;
   font-size: 40px;
   line-height: 111%;
   color: #1D1D1D;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 
 .news__container {
+  margin-left: 11px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  margin-bottom: 52px;
+  margin-bottom: 48px;
 }
 
 .news__large {
-  padding: 15px 20px 26px 29px;
+  padding: 18px 20px 26px 29px;
   background-color: #F9FBFE;
   border-left: 5px solid #FF6363;
   max-width: 445px;
@@ -690,6 +700,8 @@ body {
 }
 
 .news__large h5 {
+  margin-left: -6px;
+  margin-bottom: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
@@ -697,6 +709,7 @@ body {
 }
 
 .news__large p {
+  margin-left: -4px;
   font-weight: 800;
   font-size: 20px;
   line-height: 130%;
@@ -733,7 +746,7 @@ body {
 }
 
 .news__button {
-  padding: 22px 78px;
+  padding: 19px 83px;
   border: 2px solid #C4C4C4;
   font-weight: 900;
   font-size: 16px;
@@ -750,8 +763,8 @@ body {
 }
 
 .achievements {
-  margin-top: 143px;
-  margin-bottom: 120px;
+  margin-top: 135px;
+  margin-bottom: 102px;
 }
 
 .achievements__title {
@@ -759,16 +772,24 @@ body {
   font-size: 40px;
   line-height: 111%;
   color: #1D1D1D;
-  margin-bottom: 40px;
+  margin-bottom: 62px;
+  margin-left: 6px;
 }
 
 .achievements__board {
+  margin-left: 37px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.achievements__board-items {
+  background-color: #F9FBFE;
+  width: 232px;
+  height: 114px;
 }
 
 .achievements__board-items span {
@@ -807,6 +828,8 @@ body {
 }
 
 .mortgage__container {
+  margin-right: -10px;
+  margin-left: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,7 +856,7 @@ body {
   font-size: 40px;
   line-height: 111%;
   color: #1D1D1D;
-  margin-bottom: 25px;
+  margin-bottom: 53px;
 }
 
 .mortgage__offer span {
@@ -841,11 +864,11 @@ body {
   font-size: 30px;
   line-height: 130%;
   color: #1D1D1D;
-  margin-bottom: 31px;
+  margin-bottom: 33px;
 }
 
 .mortgage__offer span:nth-child(3) {
-  margin-bottom: 46px;
+  margin-bottom: 14px;
 }
 
 .mortgage__offer a {
@@ -866,9 +889,7 @@ body {
 }
 
 .mortgage__calc {
-  width: 100%;
-  height: 100%;
-  width: 469px;
+  width: 592px;
   height: 585px;
   background-color: #2A2A2A;
   border-top: 7px solid #FF6363;
@@ -879,13 +900,15 @@ body {
   font-size: 40px;
   line-height: 111%;
   color: #1D1D1D;
-  margin-bottom: 83px;
+  margin-bottom: 78px;
+  margin-left: 10px;
 }
 
 .instagram__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 10px;
 }
 
 .instagram__container-img:not(:last-child) {
