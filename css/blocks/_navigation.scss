@@ -1,0 +1,15 @@
+.navigation {
+    
+
+    &__container {
+        display: flex;
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        &-item:nth-child(3) img {
+            margin-bottom: 25px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.company {
+    margin-bottom: 120px;
+
+    &__container {
+        display: flex;
+        align-items: flex-end;
+
+        &-item:first-child {
+            margin-right: 80px;
+        }
+
+        &-item h2 {
+            margin-bottom: 15px;
+            font-weight: 800;
+            font-size: 60px;
+            line-height: 128%;
+            color: #1D1D1D;
+        }
+
+        &-item p {
+            margin-bottom: 83px;
+
+            max-width: 570px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #1D1D1D;
+        }
+
+        &-item button {
+            cursor: pointer;
+            padding: 22px 380px 22px 35px;
+            border: 1px solid #F7AC52;
+            background-color: inherit;
+            width: 669px;
+
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 19px;
+            color: #F7AC52;
+        }
+    }
+}

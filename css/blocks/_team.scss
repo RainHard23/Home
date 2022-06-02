@@ -1,0 +1,41 @@
+.team {
+    margin-bottom: 120px;
+    
+    &__title {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 111%;
+        color: #1D1D1D;
+
+        margin-bottom: 40px;
+    }
+
+    &__container {
+        display: flex;
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        &-item img {
+            margin-bottom: 25px;
+        }
+
+        &-item span:nth-child(even) {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 130%;
+            color: #1D1D1D;
+        }
+
+        &-item span:nth-child(odd) {
+            display: block;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #1D1D1D;
+
+        }
+    }
+}
